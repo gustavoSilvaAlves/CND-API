@@ -1,0 +1,13 @@
+.env
+.env.example
+
+venv/
+
+.idea/
+*.DS_Store
+
+
+__pycache__/
+*.pyc
+
+teste.py
