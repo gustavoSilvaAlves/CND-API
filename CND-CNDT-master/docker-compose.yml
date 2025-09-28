@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  cndt-api:
+    build: .
+
+    image: cndt-api:latest
+
+    container_name: cndt-solver
+    ports:
+      - "8000:8000"
+    shm_size: '2g'
+    restart: unless-stopped
